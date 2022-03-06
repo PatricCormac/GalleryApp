@@ -1,0 +1,23 @@
+.inputBlock {
+  cursor: pointer;
+  
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 5px;
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+
+  &.button {
+    padding: 10px 20px;
+    background: rgb(255, 197, 197);
+  }
+}

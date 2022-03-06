@@ -1,0 +1,1 @@
+export { photosApi } from "./photos";
