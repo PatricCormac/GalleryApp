@@ -1,7 +1,7 @@
-.overlay {
+.content {
   background: rgb(134, 134, 134);
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 50px);
   width: 100%;
 }
 

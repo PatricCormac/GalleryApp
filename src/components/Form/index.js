@@ -7,7 +7,7 @@ export function Form(props) {
   const [pictureData, setPictureData] = React.useState();
 
   return (
-    <div className={styles.overlay}>
+    <div className={styles.content}>
       <form className={styles.form}>
         <legend className={styles.title}>Upload image</legend>
         <Input value={pictureData} onChange={setPictureData} label='Name' placeholder='Enter name of picture' />
